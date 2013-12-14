@@ -1,4 +1,4 @@
 name: SC5 Open Device Labs
 markdown: redcarpet
 pygments: true
-exclude: ['LICENSE', 'README.md']
+exclude: ['LICENSE', 'README.md', 'CNAME']
