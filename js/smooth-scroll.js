@@ -21,10 +21,10 @@
 
 	// Feature Test
 	if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
-        console.log("depsut on")
+
 		// Function to animate the scroll
 		var smoothScroll = function (anchor, duration, easing) {
-            console.log("animating")
+
 			// Functions to control easing
 			var easingPattern = function (type, time) {
 				if ( type == 'easeInQuad' ) return time * time; // accelerating from zero velocity
@@ -94,15 +94,12 @@
 
 		};
 
-        console.log("noniin")
 		// For each smooth scroll link
 		var scrollToggle = document.querySelectorAll('.scroll');
 		[].forEach.call(scrollToggle, function (toggle) {
-            console.log("scroll toggle")
 
 			// When the smooth scroll link is clicked
 			toggle.addEventListener('click', function(e) {
-            console.log("add event listener")
 
 				// Prevent the default link behavior
 				e.preventDefault();
