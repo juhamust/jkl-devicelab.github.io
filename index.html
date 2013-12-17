@@ -94,7 +94,7 @@ title: SC5 Open Device Lab Jyväskylä
           <span id="jkl-office-map" style="background-image:url('http://maps.google.com/maps/api/staticmap?center=62.239860,25.755871&amp;zoom=14&amp;markers=60.165608,24.950720|60.168500,24.933128|64.223336,27.734592|60.165682,24.949093|40.710520,-73.964487|62.239860,25.755871&amp;size=640x480&amp;sensor=false&amp;scale=1');" onclick="$('#jkl-office-map-link').click(); return true"></span>
         </a>
       </p>
-<!--  -->
+
       <p>
         <address class="button button-big">
           <div>
@@ -117,7 +117,26 @@ title: SC5 Open Device Lab Jyväskylä
   <div class="12u">
     <section id="devices">
       <h2 class="major"><span>Devices available at the lab</span></h2>
-      <p>Coming soon&hellip;</p>
+      <table>
+        <thead>
+        <tr>
+          <th>Form factor</th>
+          <th>Model</th>
+          <th>OS</th>
+          <th>Donator</th>
+        </tr>
+        </thead>
+        <tbody>
+          {% for device in site.data.devices %}
+          <tr>
+            <td>{{ device.form_factor }}</td>
+            <td>{{ device.model }}</td>
+            <td>{{ device.os }}</td>
+            <td><a href="device.donator_link">{{ device.donator }}</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     </section>
   </div>
 </div>

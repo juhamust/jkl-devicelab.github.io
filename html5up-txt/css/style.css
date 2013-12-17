@@ -1080,3 +1080,21 @@ ul.bulleted {
     color: #6b7770;
     font-size: 1.45em;
 }
+
+table {
+    margin: 0 auto;
+}
+
+thead {
+    border-bottom: solid 5px #e7eae8;
+}
+
+th {
+    text-align: center;
+    font-size: 110%;
+}
+
+th, td {
+    padding: 0.2em 1em;
+    border-bottom: solid 1px #e7eae8;
+}
