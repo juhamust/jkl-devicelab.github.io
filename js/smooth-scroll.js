@@ -130,7 +130,8 @@
                     history.replaceState({pageYOffset: window.pageYOffset,
                                           speed: dataSpeed,
                                           easing: dataEasing,
-                                          smoothScrollTransition: true});
+                                          smoothScrollTransition: true},
+                                         null, null);
                     history.pushState(null, null, dataID);
                 }
 
