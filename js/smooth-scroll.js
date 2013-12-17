@@ -24,6 +24,10 @@
 
 		// Function to animate the scroll
 		var smoothScroll = function (anchor, duration, easing) {
+            console.log("smoothScroll")
+            console.log(anchor)
+            console.log(duration)
+            console.log(easing)
 
 			// Functions to control easing
 			var easingPattern = function (type, time) {
@@ -46,6 +50,10 @@
 			// http://www.quirksmode.org/blog/archives/2008/01/using_the_assig.html
 			var startLocation = window.pageYOffset;
 			var endLocation = function (anchor) {
+                if (typeof anchor === "number") {
+                    // assume coordinate, use as is
+                    return anchor;
+                }
 				var distance = 0;
 				if (anchor.offsetParent) {
 					do {
@@ -94,6 +102,16 @@
 
 		};
 
+        var hasPushState = history && history.pushState;
+
+        if (hasPushState) {
+            window.onpopstate = function(event) {
+                if (event.state && event.state.smoothScrollTransition) {
+                    smoothScroll(event.state.pageYOffset, event.state.speed, event.state.easing);
+                }
+            };
+        }
+
 		// For each smooth scroll link
 		var scrollToggle = document.querySelectorAll('.scroll');
 		[].forEach.call(scrollToggle, function (toggle) {
@@ -109,6 +127,18 @@
 				var dataTarget = document.querySelector(dataID);
 				var dataSpeed = toggle.getAttribute('data-speed');
 				var dataEasing = toggle.getAttribute('data-easing'); // WL: Added easing attribute support.
+                console.log(dataSpeed);
+                console.log(dataEasing);
+
+                // Emulate normal anchor behavior using pushState/popState
+                // where available.
+                if (hasPushState) {
+                    history.replaceState({pageYOffset: window.pageYOffset,
+                                          speed: dataSpeed,
+                                          easing: dataEasing,
+                                          smoothScrollTransition: true});
+                    history.pushState(null, null, dataID);
+                }
 
 				// If the anchor exists
 				if (dataTarget) {
