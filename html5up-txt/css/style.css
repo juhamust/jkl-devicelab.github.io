@@ -1099,3 +1099,8 @@ th, td {
     padding: 0.2em 1em;
     border-bottom: solid 1px #e7eae8;
 }
+
+/* Hide empty navi from mobile clients */
+#titleBar {
+    display: none;
+}
