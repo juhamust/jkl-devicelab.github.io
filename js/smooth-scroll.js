@@ -24,10 +24,6 @@
 
 		// Function to animate the scroll
 		var smoothScroll = function (anchor, duration, easing) {
-            console.log("smoothScroll")
-            console.log(anchor)
-            console.log(duration)
-            console.log(easing)
 
 			// Functions to control easing
 			var easingPattern = function (type, time) {
@@ -127,8 +123,6 @@
 				var dataTarget = document.querySelector(dataID);
 				var dataSpeed = toggle.getAttribute('data-speed');
 				var dataEasing = toggle.getAttribute('data-easing'); // WL: Added easing attribute support.
-                console.log(dataSpeed);
-                console.log(dataEasing);
 
                 // Emulate normal anchor behavior using pushState/popState
                 // where available.
