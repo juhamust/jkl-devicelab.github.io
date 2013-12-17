@@ -134,7 +134,7 @@ title: SC5 Open Device Lab Jyväskylä
             <td>{{ device.form_factor }}</td>
             <td>{{ device.model }}</td>
             <td>{{ device.os }}</td>
-            <td><a href="device.donator_link">{{ device.donator }}</a></td>
+            <td><a href="{{ device.donator_link }}">{{ device.donator }}</a></td>
           </tr>
           {% endfor %}
         </tbody>
