@@ -1,38 +1,99 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="SC5 Open Device Lab" />
+    <meta name="keywords" content="SC5 ODL Open Device Lab" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
+    <script src="html5up-txt/js/jquery.min.js"></script>
+    <script src="html5up-txt/js/config.js"></script>
+    <script src="html5up-txt/js/skel.min.js"></script>
+    <script src="html5up-txt/js/skel-panels.min.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="html5up-txt/css/skel-noscript.css" />
+      <link rel="stylesheet" href="html5up-txt/css/style.css" />
+      <link rel="stylesheet" href="html5up-txt/css/style-desktop.css" />
+    </noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" href="html5up-txt/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="html5up-txt/js/html5shiv.js"></script><link rel="stylesheet" href="html5up-txt/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="html5up-txt/css/ie7.css" /><![endif]-->
+  </head>
+  <body class="homepage">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="http://sc5.io/">SC5 home</a>
-            <a class="extra" href="http://opendevicelab.com/">other labs</a>
-          </div>
+    <!-- Header -->
+    <header id="header">
+      <div class="logo">
+	<div>
+	  <h1>{{ page.title }}</h1>
+	</div>
+      </div>
+    </header>
+    <!-- /Header -->
 
-          {{ content }}
+    {% if page.nav %}
+    <!-- Nav -->
+    <nav id="nav" class="skel-panels-fixed">
+      <ul>
+	<li class="current_page_item"><a href="index.html">Home</a></li>
+	<li><a href="left-sidebar.html">Left Sidebar</a></li>
+	<li><a href="right-sidebar.html">Right Sidebar</a></li>
+	<li><a href="no-sidebar.html">No Sidebar</a></li>
+      </ul>
+    </nav>
+    <!-- /Nav -->
+    {% endif %}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="http://sc5.io/">sc5.io</a><br />
-                <a href="mailto:info@sc5.io">info@sc5.io</a><br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/sc5">github.com/yourusername</a><br />
-                <a href="https://twitter.com/sc5io">twitter.com/sc5io</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+    {% if page.banner %}
+    <!-- Banner -->
+    <div id="banner-wrapper">
+      <section id="banner">
+        <h2>Testing web apps using real devices</h2>
+        <span class="byline">Need to test your website?  Or just want to play around with devices?  Come visit us! It’s free!</span>
+        <a href="#contact" class="button">Come and see!</a>
+      </section>
+    </div>
+    <!-- /Banner -->
+    {% endif %}
 
-    </body>
+    <!-- Main -->
+    <div id="main-wrapper">
+      <div id="main" class="container">
+        {{ content }}
+      </div>
+    </div>
+    <!-- /Main -->
+
+    <!-- Footer -->
+    <footer id="footer" class="container">
+      <div class="row">
+	<div class="12u">
+
+	  <!-- Contact -->
+	  <section>
+	    <h2 class="major"><span>Get in touch with <a href="http://sc5.io/">SC5</a></span></h2>
+	    <ul class="contact">
+	      <li><a class="fa fa-facebook solo" href="http://www.facebook.com/sc5.io"><span>Facebook</span></a></li>
+	      <li><a class="fa fa-twitter solo" href="https://twitter.com/sc5io"><span>Twitter</span></a></li>
+	      <li><a class="fa fa-linkedin solo" href="http://www.linkedin.com/company/1963934"><span>LinkedIn</span></a></li>
+	    </ul>
+	  </section>
+	  <!-- /Contact -->
+
+	</div>
+      </div>
+      <div class="row">
+
+	<!-- Copyright -->
+	<div id="copyright">
+	  &copy; Untitled Something | Images: <a href="http://fotogrph.com">fotogrph</a> | Design: <a href="http://html5up.net/">HTML5 UP</a>
+	</div>
+	<!-- /Copyright -->
+
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="js/smooth-scroll.js"></script>
+  </body>
 </html>
