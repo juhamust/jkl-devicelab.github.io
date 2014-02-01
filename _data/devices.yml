@@ -18,3 +18,23 @@
   donator: Tero Tilus
   donator_link: https://twitter.com/TTilus
   form_factor: tablet
+- model: ZTE Blade (gen2)
+  os: Android 2.3.7 (CyanogenMod 7.2)
+  donator: Arto Liukkonen
+  donator_link: http://artoliukkonen.net/
+  form_factor: phone
+- model: Huawei (??)
+  os: Android 2.2
+  donator: Arto Liukkonen
+  donator_link: http://artoliukkonen.net/
+  form_factor: phone
+- model: Bluebiit Siro
+  os: Android 4.0.3
+  donator: Arto Liukkonen
+  donator_link: http://artoliukkonen.net/
+  form_factor: tablet
+- model: Bluebiit Suuntima GPS
+  os: Android 4.0.4
+  donator: Arto Liukkonen
+  donator_link: http://artoliukkonen.net/
+  form_factor: tablet
