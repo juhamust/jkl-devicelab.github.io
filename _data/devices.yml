@@ -62,3 +62,11 @@
   device_id: (untagged)
   imei: (unknown)
   link: #
+- model: Samsung Galaxy 3 (GT-I5800)
+  os: Android 2.2
+  donator: Juha Mustonen
+  donator_link: https://www.linkedin.com/in/juhamust
+  form_factor: phone
+  device_id: ODL 006
+  imei: 352286/04/262267/9
+  link: http://www.gsmarena.com/samsung_i5800_galaxy_3-3395.php
