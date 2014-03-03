@@ -184,17 +184,19 @@ title: SC5 Open Device Lab Jyväskylä
       <table>
         <thead>
         <tr>
-          <th>Form factor</th>
-          <th>Model</th>
-          <th>OS</th>
-          <th>Donator</th>
+          <th>&#8597; Form factor</th>
+          <th>&#8597; ID</th>
+          <th>&#8597; Model</th>
+          <th>&#8597; OS</th>
+          <th>&#8597; Donator</th>
         </tr>
         </thead>
         <tbody>
           {% for device in site.data.devices %}
           <tr>
             <td>{{ device.form_factor }}</td>
-            <td>{{ device.model }}</td>
+            <td>{{ device.device_id }}</td>
+            <td><a href="{{ device.link }}">{{ device.model }}</a></td>
             <td>{{ device.os }}</td>
             <td><a href="{{ device.donator_link }}">{{ device.donator }}</a></td>
           </tr>

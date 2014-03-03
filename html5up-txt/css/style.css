@@ -1104,3 +1104,8 @@ th, td {
 #titleBar {
     display: none;
 }
+
+/* Devices table */
+#devices th {
+  cursor: pointer;
+}
