@@ -59,8 +59,8 @@
   donator: Arto Liukkonen
   donator_link: http://artoliukkonen.net/
   form_factor: tablet
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 008
+  imei: (none)
   link: #
 - model: Samsung Galaxy 3 (GT-I5800)
   os: Android 2.2
