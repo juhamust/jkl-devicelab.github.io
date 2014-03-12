@@ -86,3 +86,19 @@
   device_id: ODL 012
   imei: (none)
   link: https://web.archive.org/web/20120610070346/http://www.bluebiit.mycashflow.fi/product/124/bluebiit-big-chocolate-android-40-wifi
+- model: iPad (1st gen) (available per request)
+  os: iOS 5.1.1
+  donator: Jarkko Tuomala
+  donator_link: https://twitter.com/Tuosu
+  form_factor: tablet
+  device_id: (untagged)
+  imei: (none)
+  link: http://en.wikipedia.org/wiki/IPad
+- model: Alcatel One Touch Fire (available per request)
+  os: Firefox OS 1.0.1
+  donator: Jarkko Tuomala
+  donator_link: https://twitter.com/Tuosu
+  form_factor: phone
+  device_id: (untagged)
+  imei: (none)
+  link: http://www.gsmarena.com/alcatel_one_touch_fire-5319.php
