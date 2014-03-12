@@ -35,8 +35,8 @@
   donator: Arto Liukkonen
   donator_link: http://artoliukkonen.net/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 011
+  imei: 353160/04/028042/7
   link: http://www.gsmarena.com/zte_blade_ii_v880+-4608.php
 - model: Huawei U8800
   os: Android 2.2
@@ -51,7 +51,7 @@
   donator: Arto Liukkonen
   donator_link: http://artoliukkonen.net/
   form_factor: tablet
-  device_id: (untagged)
+  device_id: ODL 009
   imei: (none)
   link: #
 - model: Bluebiit Suuntima GPS
@@ -70,3 +70,19 @@
   device_id: ODL 006
   imei: 352286/04/262267/9
   link: http://www.gsmarena.com/samsung_i5800_galaxy_3-3395.php
+- model: Huawei Ascend P6
+  os: Android 4.4
+  donator: SC5
+  donator_link: http://sc5.io/
+  form_factor: phone
+  device_id: ODL 010
+  imei: (unknown)
+  link: http://www.gsmarena.com/huawei_ascend_p6-5467.php
+- model: Bluebiit Big Chocolate Wifi+
+  os: Android 4.0.1
+  donator: Arto Liukkonen
+  donator_link: http://artoliukkonen.net/
+  form_factor: tablet
+  device_id: ODL 012
+  imei: (none)
+  link: https://web.archive.org/web/20120610070346/http://www.bluebiit.mycashflow.fi/product/124/bluebiit-big-chocolate-android-40-wifi
