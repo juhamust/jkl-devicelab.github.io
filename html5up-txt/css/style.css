@@ -1109,3 +1109,7 @@ th, td {
 #devices th {
   cursor: pointer;
 }
+
+section {
+    padding-top: 1em;
+}
