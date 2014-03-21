@@ -105,7 +105,7 @@
 - model: Nokia C6-01
   os: Symbian^3
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -114,7 +114,7 @@
 - model: Nokia E6
   os: Symbian Anna
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -123,7 +123,7 @@
 - model: Nokia 701
   os: Symbian Belle
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -132,7 +132,7 @@
 - model: Nokia C5
   os: Symbian OS v9.3 (Series 60 rel. 3.2)
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -141,7 +141,7 @@
 - model: Nokia X7-00
   os: Symbian Anna
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -150,7 +150,7 @@
 - model: Nokia N97
   os: Symbian OS v9.4 (Series 60 rel. 5)
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -159,7 +159,7 @@
 - model: Nokia Asha 303
   os: Symbian OS (Series 40)
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -168,7 +168,7 @@
 - model: Nokia Asha 310
   os: Symbian OS (Series 40)
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -177,7 +177,7 @@
 - model: Nokia Asha 501
   os: Nokia Asha software platform 1.0
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -186,7 +186,7 @@
 - model: Lumia 800
   os: Windows Phone 7.5
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -195,7 +195,7 @@
 - model: Lumia 900
   os: Windows Phone 7.5
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -204,7 +204,7 @@
 - model: Lumia 820
   os: Windows Phone 8
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -213,7 +213,7 @@
 - model: Lumia 920
   os: Windows Phone 8
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -222,7 +222,7 @@
 - model: Lumia 525
   os: Windows Phone 8
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
@@ -231,7 +231,7 @@
 - model: Lumia 925
   os: Windows Phone 8
   donator: Nokia
-  donator_link: http://www.nokia.com/
+  donator_link: http://developer.nokia.com/
   form_factor: phone
   device_id: (untagged)
   imei: (unknown)
