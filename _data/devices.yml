@@ -237,3 +237,12 @@
   imei: (unknown)
   link: http://www.gsmarena.com/nokia_lumia_925-5451.php
   donated: 2014-03-20
+- model: Nokia X Dual Sim
+  os: Android 4.1.2 (Nokia X software platform 1.0)
+  donator: ARROW Engineering Oy
+  donator_link: http://www.arroweng.fi/
+  form_factor: phone
+  device_id: (untagged)
+  imei: 352361063461578, 352361063460885
+  link: http://www.gsmarena.com/nokia_x-6067.php
+  donated: 2014-03-24
