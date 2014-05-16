@@ -107,8 +107,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 013
+  imei: 353759/04/067748/0
   link: http://www.gsmarena.com/nokia_c6_01-3524.php
   donated: 2014-03-20
 - model: Nokia E6
@@ -116,8 +116,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 014
+  imei: 354875/04/091134/6
   link: http://www.gsmarena.com/nokia_e6-3717.php
   donated: 2014-03-20
 - model: Nokia 701
@@ -125,8 +125,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 015
+  imei: 358272/04/454730/8
   link: http://www.gsmarena.com/nokia_701-4119.php
   donated: 2014-03-20
 - model: Nokia C5
@@ -134,8 +134,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 016
+  imei: 359039/04/648011/2
   link: http://www.gsmarena.com/nokia_c5-3122.php
   donated: 2014-03-20
 - model: Nokia X7-00
@@ -143,8 +143,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 017
+  imei: 356257/04/835214/6
   link: http://www.gsmarena.com/nokia_x7_00-3664.php
   donated: 2014-03-20
 - model: Nokia N97
@@ -152,8 +152,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 018
+  imei: 354225/03/105279/2
   link: http://www.gsmarena.com/nokia_n97-2615.php
   donated: 2014-03-20
 - model: Nokia Asha 303
@@ -161,8 +161,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 019
+  imei: 353672/05/368210/9
   link: http://www.gsmarena.com/nokia_asha_303-4278.php
   donated: 2014-03-20
 - model: Nokia Asha 310
@@ -170,8 +170,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 020
+  imei: 354598/05/628794/4 354598/05/628795/1
   link: http://www.gsmarena.com/nokia_asha_310-5291.php
   donated: 2014-03-20
 - model: Nokia Asha 501
@@ -179,8 +179,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 021
+  imei: 355523/05/066421/0
   link: http://www.gsmarena.com/nokia_asha_501-5445.php
   donated: 2014-03-20
 - model: Lumia 800
@@ -188,8 +188,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 022
+  imei: 359289/04/841249/4
   link: http://www.gsmarena.com/nokia_lumia_800-4240.php
   donated: 2014-03-20
 - model: Lumia 900
@@ -197,8 +197,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 023
+  imei: 351939/05/148561/7
   link: http://www.gsmarena.com/nokia_lumia_900-4578.php
   donated: 2014-03-20
 - model: Lumia 820
@@ -206,8 +206,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 024
+  imei: 354105/05/513813/4
   link: http://www.gsmarena.com/nokia_lumia_820-4968.php
   donated: 2014-03-20
 - model: Lumia 920
@@ -215,8 +215,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 025
+  imei: 354149/05/455625/0
   link: http://www.gsmarena.com/nokia_lumia_920-4967.php
   donated: 2014-03-20
 - model: Lumia 525
@@ -224,8 +224,8 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
-  imei: (unknown)
+  device_id: ODL 026
+  imei: 359182/05/120304/3
   link: http://www.gsmarena.com/nokia_lumia_525-5869.php
   donated: 2014-03-20
 - model: Lumia 925
@@ -233,7 +233,7 @@
   donator: Nokia
   donator_link: http://developer.nokia.com/
   form_factor: phone
-  device_id: (untagged)
+  device_id: ODL 027
   imei: (unknown)
   link: http://www.gsmarena.com/nokia_lumia_925-5451.php
   donated: 2014-03-20
@@ -242,7 +242,7 @@
   donator: ARROW Engineering Oy
   donator_link: http://www.arroweng.fi/
   form_factor: phone
-  device_id: (untagged)
+  device_id: ODL 028
   imei: 352361063461578, 352361063460885
   link: http://www.gsmarena.com/nokia_x-6067.php
   donated: 2014-03-24
