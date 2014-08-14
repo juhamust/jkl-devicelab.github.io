@@ -19,7 +19,9 @@ Website can be updated with following steps:
 
 * Run pages locally at: http://localhost:4000
 
-        bundle exec jekyll serve
+        bundle exec jekyll serve --watch
+
+      The `--watch` option rebuilds the files into `_site` folder whenever files changes.
 
 * Edit the files as needed and verify the outcome in browser
 * Commit the changes in `gh-pages` branch and push them back to origin
